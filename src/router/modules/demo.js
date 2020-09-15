@@ -16,13 +16,6 @@ const demoRouter = {
     meta: {
       title: '列表测试'
     }
-  }, {
-    path: 'list1',
-    component: () => import('@/views/demo/list'),
-    name: 'List',
-    meta: {
-      title: '列表测试1'
-    }
   }]
 }
 
